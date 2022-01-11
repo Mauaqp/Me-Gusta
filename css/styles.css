@@ -1,0 +1,72 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+body{
+    margin: 0px;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 0px 0px 0px 30px;
+}
+.header h1 {
+    margin-block-start: 0;
+}
+.feed{
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 30px 0px 30px;
+}
+.user {
+    border: 2px solid black;
+    flex: 1;
+}
+.box-container{
+    margin-left: 20px;
+    flex: 2;
+}
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/*Ejercicio 1*/
+.box1 {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.username{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter {
+    display: flex;
+}
+.counter span{
+    margin-left: 5px;
+}
+
+/*Componentes*/
+.btn {
+    background-color: rgb(255, 217, 102);
+    box-shadow: 2px 2px;
+}
+.user-circle{
+    width: 40%;
+}
